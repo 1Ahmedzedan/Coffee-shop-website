@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../MainStyle/normalize.css">
     <link rel="stylesheet" href="ContactStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="Form.js" defer></script>
 <body>
     <span class="up"><i class="fa-sharp fa-solid fa-chevron-up"></i></span>
     <!-- start nav bar -->
@@ -37,32 +38,32 @@
             <!-- startt form -->
             <div class="contact form">
                 <h3>Send a Massage</h3>
-                <form>
+                <form id="contactForm">
                     <div class="formBox">
                         <div class="row50">
                             <div class="inputBox">
                                 <span>First Name</span>
-                                <input type="text" placeholder="first name">
+                                <input type="text" placeholder="first name" id="firstName">
                             </div>
                             <div class="inputBox">
                                 <span>Last Name</span>
-                                <input type="text" placeholder="last name">
+                                <input type="text" placeholder="last name" id="lastName">
                             </div>
                         </div>
                         <div class="row50">
                             <div class="inputBox">
                                 <span>Email</span>
-                                <input type="text" placeholder="example@gmail.com">
+                                <input type="text" placeholder="example@gmail.com" id="email">
                             </div>
                             <div class="inputBox">
                                 <span>Mobile</span>
-                                <input type="text" placeholder="+20 0106 667 2019">
+                                <input type="text" placeholder="+20 0106 667 2019" id="phone">
                             </div>
                         </div>
                         <div class="row100">
                             <div class="inputBox">
                                 <span>Massage</span>
-                                <textarea placeholder="Write your massage here..."></textarea>
+                                <textarea placeholder="Write your massage here..." id="message"></textarea>
                             </div>
                         </div>
                         <div class="row100">
